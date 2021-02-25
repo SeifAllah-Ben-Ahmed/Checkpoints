@@ -1,0 +1,38 @@
+ALGORITHM algorithm_name
+VAR
+    _chaine :STRING; 
+    leng,vow,wor: INTEGER ;
+BEGIN
+Read(_chaine)
+FOR i FROM 0 TO _chaine.length STEP step  DO
+    leng=leng+1
+    IF (_chaine[i]===' ') THEN
+        word=word+1
+    
+    ELSE_IF (ALGORITHM algorithm_name
+VAR
+    _chaine :STRING; 
+    leng,vow: INTEGER:=0 ;
+    word:INTEGER:=1;
+    i:INTEGER;
+BEGIN
+Read(_chaine)
+Read(leng)
+Read(word)
+Read(vow)
+FOR i FROM 0 TO _chaine.length STEP step  DO
+    leng=leng+1
+    IF (_chaine[i]===' ') THEN
+        word=word+1
+    
+    ELSE_IF (_chaine[i]==='e'||_chaine[i]==='a'||_chaine[i]==='o'||_chaine[i]==='i'||_chaine[i]==='u') THEN
+        vow=vow+1
+    
+    END_IF
+
+END_FOR
+write(leng)
+write(word)
+write(vow)
+
+END
