@@ -1,0 +1,51 @@
+ALGORITHM checkpoint2
+VAR
+    arr : ARRAY_OF INTEGER[];
+    arr1 : ARRAY_OF INTEGER[];
+    arr2 : ARRAY_OF INTEGER[];
+    sum , i , j :INTEGER :=0
+BEGIN
+    write( "Give two sets of elements")
+    READ (arr1)  
+    READ (arr2)  
+    READ (arr)  
+    READ(i)
+    READ(j)
+    READ(sum)
+    FOR i FROM 0 TO arr1.length STEP step  DO
+        FOR j FROM 0 TO arr2.length STEP step  DO
+            IF (arr1[i]===arr2[j]) THEN
+                sum=sum+arr1[i]
+                arr.push(arr1[i]
+            END_IF
+        END_FOR
+    END_FOR
+    write `${sum} (distinct elements - ${arr})`
+END
+
+// second exemple
+ALGORITHM checkpoint22
+VAR
+    arr : ARRAY_OF INTEGER[];
+    arr1 : ARRAY_OF INTEGER[];
+    arr2 : ARRAY_OF INTEGER[];
+    sum , i , j :INTEGER :=0
+BEGIN
+    write( "Give two sets of elements")
+    READ (arr1)  
+    READ (arr2)  
+    READ (arr)  
+    READ(i)
+    READ(j)
+    READ(sum)
+    FOR i FROM 0 TO arr1.length STEP step  DO
+        FOR j FROM 0 TO arr2.length STEP step  DO
+        IF (arr1[i]!=arr2[j]) THEN
+            sum=sum+arr1[i]
+        ELSE
+            arr.push(arr1[i]
+        END_IF
+        END_FOR
+    END_FOR
+    write `${sum} (distinct elements - ${arr})`
+END
