@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #747474;
+}
+h1,
+h2,
+h3 {
+    font-family: "Work Sans", sans-serif;
+}
+p {
+    padding: 22px 0;
+    line-height: 30px;
+}
+/*Header style*/
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+nav {
+    height: 70px;
+    margin: 0 167px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    height: 33px;
+    width: 268px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding: 19px 0;
+}
+li {
+    padding: 0 9px;
+}
+a {
+    text-decoration: none;
+}
+/*main section */
+main {
+    margin: 33px 167px 60px;
+    text-align: center;
+}
+main h1 {
+    margin: 34px 0;
+    font-weight: 200;
+    color: #00b39b;
+}
+main div {
+    margin: 12.8px 0;
+}
+main p {
+    padding: 10px;
+    color: black;
+    line-height: 30px;
+    text-align: left;
+}
+main .column2 {
+    display: flex;
+}
+
+/*serice section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services h1 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    margin: 10px 0;
+}
+.services h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.services a {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    margin: 10px 0;
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+
+.services div {
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+.services .patients {
+    display: inline-block;
+    align-items: flex-start;
+    background-color: #00b39b;
+    border-radius: 10px;
+    padding: 32px 32px 0 32px;
+    height: 313px;
+    width: 247.6px;
+}
+
+.services .doctors {
+    display: inline-block;
+    background-color: #3d83df;
+    border-radius: 10px;
+    padding: 32px 32px 0 32px;
+    height: 313px;
+    width: 247.6px;
+}
+.services .clinics {
+    background-color: #1b2734;
+    border-radius: 10px;
+    padding: 32px 30px 0 32px;
+    height: 313px;
+    width: 247.6px;
+}
+/*BRAND section */
+
+.brands {
+    display: grid;
+    flex-wrap: wrap;
+    color: #00b39b;
+    grid-template-columns: 1fr 3fr;
+    align-items: baseline;
+}
+.brandtitre {
+    margin: 6.5px 0 50px 0;
+
+    height: 99px;
+    width: 295.75px;
+}
+.brands .logos {
+    text-align: start;
+}
+.brands .logos img {
+    margin: 10px;
+}
+.brands h1 {
+    text-align: left;
+}
+/*cards section */
+.background {
+    background: #e5faf8;
+    background-image: linear-gradient(
+        -45deg,
+        rgba(0, 204, 177, 0.01) 5%,
+        rgba(61, 199, 223, 0.1)
+    );
+    padding: 1.875em 0 0.625em;
+}
+.container {
+    margin: 33px 167px 60px;
+    display: flex;
+}
+.background h1 {
+    margin: 34px 0;
+    font-weight: 100;
+    color: #00b39b;
+    font-size: 35px;
+}
+.text {
+    padding: 10px;
+    margin-top: 32px;
+}
+.background .container .text p {
+    padding: 22.4px 0;
+}
+.card {
+    background-color: white;
+    padding: 15px;
+    width: 228px;
+
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card p {
+    padding: 20px;
+    line-height: 20px;
+    font-size: 13px;
+}
+.card h1 {
+    font-size: 25px;
+    margin: 10px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+/*end section */
+.final {
+    margin: 33px 167px 60px;
+    text-align: center;
+}
+.final h1 {
+    margin: 34px 0;
+    font-weight: 100;
+    color: #00b39b;
+    font-size: 35px;
+}
+.final p {
+    padding: 20px;
+    line-height: 25px;
+    font-size: 15px;
+}
+.final div {
+    margin: 0 200px 6px 200px;
+}
+/*IMage section */
+.images {
+    margin: 33px 167px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+}
+.images .image {
+    padding: 20px;
+    width: 311px;
+}
+
+button {
+    color: white;
+    background-color: #3d83df;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+footer {
+    margin: 33px 167px 0;
+    text-align: center;
+}
+FOOTER h3 {
+    margin: 30px;
+}
+footer p {
+    font-size: 12px;
+    padding: 0;
+}
+footer button {
+    margin-bottom: 100px;
+}
