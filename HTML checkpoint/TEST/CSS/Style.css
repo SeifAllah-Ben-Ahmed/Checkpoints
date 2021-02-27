@@ -1,0 +1,72 @@
+*{
+    background-color: rgb(6, 6, 66);
+    color: white;
+    margin: 0; 
+    padding: 0;
+    z-index: 1;
+}
+header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    
+    font-family: 'Press Start 2P';
+}
+
+ul{
+    display: flex;
+
+}
+.navlinks li{
+    list-style: none;
+}
+.navlinks a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+h2{
+    color: crimson;
+    font-size: 80px;
+    margin-top: 10rem;
+    margin-left: 25rem;
+    font-family: 'Lobster';
+}
+p{
+    margin-top: 10rem;
+    margin-left: 35rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+p a {
+    text-decoration: none;
+}
+img{
+    height: 100px;
+}
+figure{
+    margin-left: 160px;
+}
+iframe{
+    margin-left: 220px;
+    margin-top: 50px;
+}
+form{
+    margin-left: 220px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+form input{
+    border-radius: 50px;
+    border-color: turquoise;
+    padding: 10px;
+}
+button{
+    font-size: 20px;
+    border-radius: 50px;
+    border-color: turquoise;
+    padding: 10px;
+}
