@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS checkPoint</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/9726ec0a0c.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <header>
+            <h1>shopping card</h1>
+            <nav>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">product</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="sum">
+                <h1>total: <span id="total">0</span>$</h1>
+            </div>
+
+            <div class="item" id="item_1">
+                <img
+                    src="assets/oxymetre-de-pouls-appareil-portatif-de-mesure-de-l-oxygene-pulse.jpg"
+                    alt=""
+                />
+                <h2><span id="item_1_price">50</span> $</h2>
+                <button type="button" class="plus" name="item_1">+</button>
+                <h2 class="quantite" id="item_1_qty">0</h2>
+                <button class="moin" name="item_1">-</button>
+                <button class="delete" name="item_1">delete</button>
+                <i
+                    class="fas fa-heart"
+                    style="font-size: 34px"
+                    name="item_1"
+                    id="item_1_like"
+                ></i>
+            </div>
+            <div class="item" id="item_2">
+                <img
+                    src="assets/oxymetre-de-pouls-appareil-portatif-de-mesure-de-l-oxygene-pulse.jpg"
+                    alt=""
+                />
+                <h2><span id="item_2_price">100</span> $</h2>
+                <button type="button" class="plus" name="item_2">+</button>
+                <h2 class="quantite" id="item_2_qty">0</h2>
+                <button class="moin" name="item_2">-</button>
+                <button class="delete" name="item_2">delete</button>
+                <i
+                    class="fas fa-heart"
+                    style="font-size: 34px"
+                    name="item_2"
+                    id="item_2_like"
+                ></i>
+            </div>
+            <div class="item" id="item_3">
+                <img
+                    src="assets/oxymetre-de-pouls-appareil-portatif-de-mesure-de-l-oxygene-pulse.jpg"
+                    alt=""
+                />
+                <h2><span id="item_3_price">1200</span> $</h2>
+                <button type="button" class="plus" name="item_3">+</button>
+                <h2 class="quantite" id="item_3_qty">0</h2>
+                <button class="moin" name="item_3">-</button>
+                <button class="delete" name="item_3">delete</button>
+                <i
+                    class="fas fa-heart"
+                    style="font-size: 34px"
+                    name="item_3"
+                    id="item_3_like"
+                ></i>
+            </div>
+        </main>
+        <script src="app.js"></script>
+    </body>
+</html>
