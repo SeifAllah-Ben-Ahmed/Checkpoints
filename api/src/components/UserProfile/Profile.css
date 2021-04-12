@@ -1,0 +1,24 @@
+.user {
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(57, 255, 189);
+    border-radius: 10%;
+    margin: 10px 20px;
+    font-size: 100px;
+    color: white;
+    font-family: emoji;
+}
+.info {
+    color: rgb(45, 48, 49);
+    font-family: emoj;
+}
+h1 {
+    font-size: 35px;
+}
