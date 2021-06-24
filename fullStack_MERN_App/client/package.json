@@ -47,10 +47,5 @@
             "last 1 safari version"
         ]
     },
-    "proxy": {
-        "/api/*": {
-            "target": "http://localhost:8000",
-            "secure": false
-        }
-    }
+    "proxy": "http://localhost:5000"
 }
